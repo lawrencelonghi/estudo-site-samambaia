@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1.5px;
+  background: #28312d;
+  margin-top: 60px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fcfcc9;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-left: 35px;
+}
+.menu a:hover {
+  color: #4d7e67;
+  transition: 0.3s;
+}
+
+.imglogo {
+  max-width: 60px;
+  max-height: 60px;
+  margin-left: 10px;
+}
+.menu {
+  background: #145454;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  justify-content: start;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+.samambaianome h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin: 0px;
+  color: #fcfcc9;
+}
+.samambaianome p {
+  color: #fcfcc9;
+  text-align: center;
+  margin: 0px;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  padding-bottom: 0px;
+}
+
+.samambaianome {
+  background: #28312d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main {
+  margin-top: 0px;
+}
+.sobre p {
+  font-size: 1rem;
+  margin: 0px;
+}
+.imgpianopeb {
+  width: 100%;
+}
+.subtitulosobre {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  color: #fcfcc9;
+  margin-top: 100px;
+}
+.sobre p {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 40px 100px;
+  color: #fcfcc9;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+}
+.divgarfo {
+  justify-self: center;
+}
+.painel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 40px 0px;
+}
