@@ -5,7 +5,9 @@ body {
   background: #28312d;
   margin-top: 60px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .menu a {
   text-decoration: none;
   color: #fcfcc9;
@@ -88,9 +90,48 @@ body {
 .divgarfo {
   justify-self: center;
 }
-.painel {
+.painel1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   gap: 40px 0px;
+}
+.cardapio {
+  color: #fcfcc9;
+  text-align: center;
+}
+
+.cardapio h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.cardapio h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.cardapio h3 {
+  text-transform: uppercase;
+}
+.cardapio p {
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+.painel2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 40px 0px;
+}
+
+.contato {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 1.2rem;
+}
+@media (width <=600px) {
+  .painel1,
+  .painel2 {
+    grid-template-columns: 1fr;
+  }
 }
